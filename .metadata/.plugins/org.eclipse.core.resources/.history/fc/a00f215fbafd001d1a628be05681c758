@@ -1,0 +1,8 @@
+package io.github.brunoyillli.craps;
+
+public class CrapsTest {
+
+	public void jogadorGanhaPrimeiraRolagem() {
+		
+	}
+}

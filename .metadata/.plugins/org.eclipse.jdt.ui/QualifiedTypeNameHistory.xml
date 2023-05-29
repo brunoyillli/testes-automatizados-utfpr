@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="io.github.brunoyillli.calculadoraHipotecaMousavi.service.HipotecaService"/>
+    <fullyQualifiedTypeName name="io.github.brunoyillli.calculadoraHipotecaMousavi.entity.Pessoa"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="io.github.brunoyillli.validadorIdentifierAtividade.IdentifierException"/>
+    <fullyQualifiedTypeName name="io.github.brunoyillli.validadorIdentifierAtividade.ProcessIdentifier"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="io.github.brunoyillli.calculadoraSalario.FuncionarioSalarioCalculadora"/>
+    <fullyQualifiedTypeName name="io.github.brunoyillli.calculadoraSalario.entity.Funcionario"/>
+    <fullyQualifiedTypeName name="io.github.brunoyillli.calculadoraSalario.entity.CargoEnum"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="java.math.RoundingMode"/>
+</qualifiedTypeNameHistroy>

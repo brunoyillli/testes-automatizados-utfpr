@@ -1,0 +1,21 @@
+package io.github.brunoyillli.calculadoraSalario;
+
+import java.math.BigDecimal;
+
+import io.github.brunoyillli.calculadoraSalario.entity.Funcionario;
+
+public class FuncionarioSalarioCalculadora {
+    public BigDecimal calcularDescontoSalario(Funcionario funcionario){
+    	BigDecimal salarioDescontado = BigDecimal.ZERO;
+    	switch (funcionario.getCargo()) {
+		case DESENVOLVEDOR:
+			salario
+			break;
+
+		default:
+			break;
+		}
+    	
+    	return salarioDescontado;
+    }
+}

@@ -1,0 +1,15 @@
+package io.github.brunoyillli.validadorIdentifierAtividade;
+
+import javax.swing.JOptionPane;
+
+public class ProcessIdentifier {
+
+	public static void main(String args[]) {
+		String identificador = JOptionPane.showInputDialog(null,"Digite um identificador");
+
+	}
+	
+	public static String enviarNome() {
+		return "mayara";
+	}
+}

@@ -1,0 +1,54 @@
+package io.github.brunoyillli.calculadoraSalario;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import java.math.BigDecimal;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import io.github.brunoyillli.calculadoraSalario.entity.CargoEnum;
+import io.github.brunoyillli.calculadoraSalario.entity.Funcionario;
+import io.github.brunoyillli.validadorIdentifierAtividade.IdentifierException;
+import io.github.brunoyillli.validadorIdentifierAtividade.ProcessIdentifier;
+
+public class FuncionarioSalarioCalculadoraTest {
+
+	@Test
+	public void CalculandoDescontoMaiorDesenvolvedorTest() {
+		FuncionarioSalarioCalculadora calculadora = new FuncionarioSalarioCalculadora();
+		Funcionario funcionario = new Funcionario("Bruno Mendes", "bruno@utfpr.com", BigDecimal.valueOf(12000),
+				CargoEnum.DESENVOLVEDOR);
+		BigDecimal salarioDescontadoExperado = BigDecimal.valueOf(9600.0);
+
+		BigDecimal salarioDescontadoAtual = calculadora.calcularDescontoSalario(funcionario);
+
+		Assertions.assertEquals(salarioDescontadoExperado, salarioDescontadoAtual);
+	}
+
+	@Test
+	public void CalculandoDescontoMenorsDesenvolvedorTest() {
+		FuncionarioSalarioCalculadora calculadora = new FuncionarioSalarioCalculadora();
+		Funcionario funcionario = new Funcionario("Uziel Sena", "uzi@utfpr.com", BigDecimal.valueOf(2000),
+				CargoEnum.DESENVOLVEDOR);
+		BigDecimal salarioDescontadoExperado = BigDecimal.valueOf(1800.0);
+
+		BigDecimal salarioDescontadoAtual = calculadora.calcularDescontoSalario(funcionario);
+
+		Assertions.assertEquals(salarioDescontadoExperado, salarioDescontadoAtual);
+	}
+	
+	@Test
+	public void calculandoDescontoCargoInvalidoExceptionTest() {
+		
+		 FuncionarioSalarioCalculadora calculadora = new FuncionarioSalarioCalculadora();
+	        Funcionario funcionario = new Funcionario("João", "joao@example.com",
+	                BigDecimal.valueOf(3000), CargoEnum.TESTADOR);
+
+	        Assertions.assertThrows(IllegalArgumentException.class, () -> {
+	            calculadora.calcularDescontoSalario(funcionario);
+	        });
+		
+	}
+}

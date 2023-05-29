@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Craps test" project="craps" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="io.github.brunoyillli.craps.CrapsTest" time="2.287" displayname="CrapsTest" uniqueid="[engine:junit-jupiter]/[class:io.github.brunoyillli.craps.CrapsTest]">
+    <testcase name="jogadorGanhaPrimeiraRolagem" classname="io.github.brunoyillli.craps.CrapsTest" time="2.278" displayname="jogadorGanhaPrimeiraRolagem()" uniqueid="[engine:junit-jupiter]/[class:io.github.brunoyillli.craps.CrapsTest]/[method:jogadorGanhaPrimeiraRolagem()]"/>
+    <testcase name="jogadorGanhaPrimeiraRolagemSegundaPossibilidade" classname="io.github.brunoyillli.craps.CrapsTest" time="0.004" displayname="jogadorGanhaPrimeiraRolagemSegundaPossibilidade()" uniqueid="[engine:junit-jupiter]/[class:io.github.brunoyillli.craps.CrapsTest]/[method:jogadorGanhaPrimeiraRolagemSegundaPossibilidade()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,8 @@
+package io.github.brunoyillli.validadorIdentifierAtividade;
+
+public class ProcessIdentifier {
+
+	public static void main(String args[]) {
+		
+	}
+}

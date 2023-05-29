@@ -1,0 +1,17 @@
+package io.github.brunoyillli.calculadoraSalario;
+
+import org.junit.jupiter.api.Test;
+
+public class FuncionarioSalarioCalculadoraTest {
+	
+	@Test
+    public void testCalculateNetSalaryForDeveloper() {
+        FuncionarioSalarioCalculadora calculator = new EmployeeSalaryCalculator();
+        Employee employee = new Employee("John Doe", "john@example.com", BigDecimal.valueOf(5000), Role.DEVELOPER);
+        BigDecimal expectedNetSalary = BigDecimal.valueOf(4000);
+        
+        BigDecimal actualNetSalary = calculator.calculateNetSalary(employee);
+        
+        assertEquals(expectedNetSalary, actualNetSalary);
+    }
+}

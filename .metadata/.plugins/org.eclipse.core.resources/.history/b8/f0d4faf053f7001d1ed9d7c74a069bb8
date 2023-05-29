@@ -1,0 +1,32 @@
+package io.github.brunoyillli.calculadoraSalario;
+
+import java.math.BigDecimal;
+
+import io.github.brunoyillli.calculadoraSalario.entity.Funcionario;
+
+public class FuncionarioSalarioCalculadora {
+	private static final BigDecimal DESENVOLVEDOR_SALARIO_BASE_DESCONTO = BigDecimal.valueOf(3000);
+	private static final BigDecimal DBA_SALARIO_BASE_DESCONTO = BigDecimal.valueOf(2000);
+	private static final BigDecimal TESTADOR_SALARIO_BASE_DESCONTO = BigDecimal.valueOf(2000);
+	private static final BigDecimal GERENTE_SALARIO_BASE_DESCONTO = BigDecimal.valueOf(5000);
+
+	public BigDecimal calcularDescontoSalario(Funcionario funcionario) {
+		BigDecimal salarioDescontado = BigDecimal.ZERO;
+		switch (funcionario.getCargo()) {
+		case DESENVOLVEDOR:
+			salarioDescontado = calcularDescontoDesenvolvedor(funcionario.getSalario());
+			break;
+
+		default:
+			throw new IllegalArgumentException("Cargo invalido: " + funcionario.getCargo());
+		}
+
+		return salarioDescontado;
+	}
+
+	private BigDecimal calcularDescontoDesenvolvedor(BigDecimal salario) {
+		BigDecimal taxaDesconto = salario.compareTo(DESENVOLVEDOR_SALARIO_BASE_DESCONTO) >= 0 ? BigDecimal.valueOf(0.2)
+				: BigDecimal.valueOf(0.1);
+		return salario.subtract(salario.multiply(taxaDesconto));
+	}
+}

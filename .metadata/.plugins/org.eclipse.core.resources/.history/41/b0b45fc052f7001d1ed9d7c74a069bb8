@@ -1,0 +1,22 @@
+package io.github.brunoyillli.calculadoraSalario;
+
+import java.math.BigDecimal;
+
+import org.junit.jupiter.api.Test;
+
+import io.github.brunoyillli.calculadoraSalario.entity.CargoEnum;
+import io.github.brunoyillli.calculadoraSalario.entity.Funcionario;
+
+public class FuncionarioSalarioCalculadoraTest {
+	
+	@Test
+    public void testCalculateNetSalaryForDeveloper() {
+        FuncionarioSalarioCalculadora calculator = new FuncionarioSalarioCalculadora();
+        Funcionario employee = new Funcionario("Bruno Mendes", "bruno@utfpr.com", BigDecimal.valueOf(12000), CargoEnum.DESENVOLVEDOR);
+        BigDecimal salarioDescontado = BigDecimal.valueOf(9600);
+        
+        BigDecimal actualNetSalary = calculator.calculateNetSalary(employee);
+        
+        assertEquals(expectedNetSalary, actualNetSalary);
+    }
+}

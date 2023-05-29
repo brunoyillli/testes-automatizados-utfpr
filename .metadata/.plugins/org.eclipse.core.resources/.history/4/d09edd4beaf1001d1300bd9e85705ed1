@@ -1,0 +1,11 @@
+package io.github.brunoyillli.validadorIdentifierAtividade;
+
+import org.junit.jupiter.api.Test;
+
+public class IdentifierTest {
+
+	@Test
+	public void deveReceberUmIdentifierValido() {
+		
+	}
+}
