@@ -1,5 +1,0 @@
-package io.github.brunoyillli.calculadoraSalario.entity;
-
-public enum CargoEnum {
-
-}

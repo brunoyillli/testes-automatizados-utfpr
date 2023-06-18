@@ -1,5 +1,0 @@
-package io.github.brunoyillli.validadorIdentifierAtividade;
-
-public class IdentifierException extends RuntimeException {
-
-}

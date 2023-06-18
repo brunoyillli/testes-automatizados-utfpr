@@ -62,11 +62,17 @@
 			<item value="io.github.brunoyillli"/>
 		</list>
 		<list key="name">
+			<item value="webconf2"/>
+			<item value="geradorAleatorio"/>
+			<item value="craps"/>
 			<item value="calculadoraSalario"/>
 			<item value="validadorIdentifierAtividade"/>
 			<item value="calculadorahipotecamousavi"/>
 		</list>
 		<list key="artifactId">
+			<item value="webconf2"/>
+			<item value="geradorAleatorio"/>
+			<item value="craps"/>
 			<item value="calculadoraSalario"/>
 			<item value="validadorIdentifierAtividade"/>
 			<item value="calculadoraHipotecaMousavi"/>

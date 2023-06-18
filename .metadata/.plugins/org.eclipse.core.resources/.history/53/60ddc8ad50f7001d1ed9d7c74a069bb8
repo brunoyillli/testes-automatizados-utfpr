@@ -1,7 +1,0 @@
-package io.github.brunoyillli.calculadoraSalario;
-
-import java.math.BigDecimal;
-
-public class FuncionarioSalarioCalculadora {
-    
-}
