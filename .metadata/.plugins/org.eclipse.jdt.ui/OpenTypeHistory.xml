@@ -2,5 +2,5 @@
 <typeInfoHistroy>
     <typeInfo handle="=validadorIdentifierAtividade/C:\/Program Files\/Java\/jdk-11.0.15\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/=/module=/true=/=/maven.pomderived=/true=/&lt;java.lang(RuntimeException.class[RuntimeException" modifiers="33" timestamp="1653438064248"/>
     <typeInfo handle="=validadorIdentifierAtividade/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;io.github.brunoyillli.validadorIdentifierAtividade{IdentifierTest.java[IdentifierTest" modifiers="1" timestamp="1684026403250"/>
-    <typeInfo handle="=webconf2/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;io.github.brunoyillli.webconf2{NovaLinhaTest.java[NovaLinhaTest" modifiers="1" timestamp="1687100701688"/>
+    <typeInfo handle="=webconf2/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;io.github.brunoyillli.webconf2{NovaLinhaTest.java[NovaLinhaTest" modifiers="1" timestamp="1687106718294"/>
 </typeInfoHistroy>

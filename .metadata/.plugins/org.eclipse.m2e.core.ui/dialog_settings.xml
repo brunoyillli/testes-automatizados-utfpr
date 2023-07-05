@@ -62,6 +62,7 @@
 			<item value="io.github.brunoyillli"/>
 		</list>
 		<list key="name">
+			<item value="trianguloAvaliacao"/>
 			<item value="webconf2"/>
 			<item value="geradorAleatorio"/>
 			<item value="craps"/>
@@ -70,6 +71,7 @@
 			<item value="calculadorahipotecamousavi"/>
 		</list>
 		<list key="artifactId">
+			<item value="trianguloAvaliacao"/>
 			<item value="webconf2"/>
 			<item value="geradorAleatorio"/>
 			<item value="craps"/>

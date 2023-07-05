@@ -24,8 +24,12 @@
     <fullyQualifiedTypeName name="org.mockito.MockitoAnnotations"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.RepeatedTest"/>
     <fullyQualifiedTypeName name="io.github.brunoyillli.geradorAleatorio.MyRandomNumber"/>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="io.github.brunoyillli.webconf2.NovaLinha"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="io.github.brunoyillli.trianguloAvaliacao.exception.TrianguloException"/>
+    <fullyQualifiedTypeName name="io.github.brunoyillli.trianguloAvaliacao.TipoTriangulo"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
 </qualifiedTypeNameHistroy>
